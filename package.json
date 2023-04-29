@@ -1,0 +1,23 @@
+{
+  "name": "docker-dev",
+  "version": "1.0.0",
+  "description": "This project is a RESTful API for managing person objects, which has been built using Docker. The RESTful API allows you to create new person documents, get all persons, delete persons, and update persons.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NOSTVA/SIM-DOCKER-PROJ.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NOSTVA/SIM-DOCKER-PROJ/issues"
+  },
+  "homepage": "https://github.com/NOSTVA/SIM-DOCKER-PROJ#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
