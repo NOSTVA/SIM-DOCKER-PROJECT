@@ -13,7 +13,15 @@ docker run -p 8080:8080 mohamedsaeed/docker-api
 ```
 
 ## API endpoints
-To test the API, you can use the following endpoints:
+To test the API in Visual Studio Code, you can use the ***REST Client*** extension. To do this, follow these steps:
+
+1. Install the REST Client extension in Visual Studio Code.
+2. Create a new file in your project called "client.rest".
+3. In the "client.rest" file, write the commands to test the API using the ***REST Client*** syntax.
+4. Save the "client.rest" file.
+5. Run the commands in the "client.rest" file using the REST Client extension.
+
+Note: Replace {person-id} with the actual ID of the person you want to delete or update.
 
 ### Get All Persons
 ```client.REST
@@ -45,8 +53,5 @@ content-type: application/json
    "email": "example@gmail.com"
 }
 ```
-Note: Replace {person-id} with the actual ID of the person you want to delete or update.
-
-To test the API in Visual Studio Code, you can install the ***REST Client*** extension and run the above commands
 ## Credits
 This project was created by Mohamed Saeed Mohamed.
