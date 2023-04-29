@@ -7,4 +7,4 @@ RUN npm install
 ENV PORT=8080
 EXPOSE $PORT
 
-CMD node app.js
+CMD ["npm", "start"]

@@ -1,0 +1,30 @@
+GET http://localhost:8080/persons
+
+###
+
+POST http://localhost:8080/persons
+content-type: application/json
+
+{
+"name": "Mourad",
+"age": 35,
+"gender": "male",
+"email": "mourad@outlook.com"
+}
+
+###
+
+GET http://localhost:8080/persons/3d29410a-9c5a-4eb8-833b-2ded6e68eba1
+
+###
+
+PUT http://localhost:8080/persons/3d29410a-9c5a-4eb8-833b-2ded6e68eba1
+content-type: application/json
+
+{
+   "email": "example@gmail.com"
+}
+
+###
+
+DELETE http://localhost:8080/persons/178c3964-1d22-4502-ab1b-a258580ace8b

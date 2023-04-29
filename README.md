@@ -3,13 +3,13 @@ This project is a RESTful API for managing person objects, which has been built 
 
 ## How to run
 To run the project, follow these steps:
-1. Build the Docker image using the following command:
+1. Pull the Docker image from Docker Hub using the following command:
 ```code
-docker build . -t mohamedsaeed/docker-api
+docker pull mohamedbekhit/sim-docker-api:latest
 ```
 2. Run the Docker container using the following command:
 ```code
-docker run -p 8080:8080 mohamedsaeed/docker-api
+docker run -p 8080:8080 mohamedbekhit/sim-docker-api:latest
 ```
 
 ## API endpoints
@@ -26,6 +26,10 @@ Note: Replace {person-id} with the actual ID of the person you want to delete or
 ### Get All Persons
 ```client.REST
 GET http://localhost:8080/persons
+```
+### Get Person
+```client.REST
+GET http://localhost:8080/persons/{person-id}
 ```
 ### Delete Person
 
