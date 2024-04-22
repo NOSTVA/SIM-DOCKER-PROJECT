@@ -1,5 +1,5 @@
 # SIM Cloud Computing Project
-# This project is a RESTful API for managing person objects, which has been built using Docker. The RESTful API allows you to create new person documents, get all persons, delete persons, and update persons.
+# RESTful API for managing persons built using Docker. This API allows you to create, fetch, delete, and update persons.
 
 ## How to run
 To run the project, follow these steps:
